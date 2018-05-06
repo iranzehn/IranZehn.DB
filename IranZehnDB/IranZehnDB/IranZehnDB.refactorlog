@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="26631144-c435-4528-9afa-fa1090386f04" ChangeDateTime="12/08/2013 13:25:56">
+    <Property Name="ElementName" Value="[dbo].[TestDetails]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="TestResultDetails" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5ba50daa-39ee-4660-8139-257f2b1e08b7" ChangeDateTime="12/10/2013 09:36:31">
+    <Property Name="ElementName" Value="[dbo].[GetValue]" />
+    <Property Name="ElementType" Value="SqlScalarFunction" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[UFN_GetValue]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2b376336-0470-444a-bbb3-e56b6eaed4fb" ChangeDateTime="12/10/2013 09:36:44">
+    <Property Name="ElementName" Value="[dbo].[GetRepeatCount]" />
+    <Property Name="ElementType" Value="SqlScalarFunction" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[UFN_GetRepeatCount]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="05bee3c4-564d-4b34-b7f7-1f7312ab1114" ChangeDateTime="12/10/2013 09:36:53">
+    <Property Name="ElementName" Value="[dbo].[ReverseDate]" />
+    <Property Name="ElementType" Value="SqlScalarFunction" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[UFN_ReverseDate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3b5add80-866d-46df-a20c-a2d23f87a49b" ChangeDateTime="03/18/2015 02:15:59">
+    <Property Name="ElementName" Value="[dbo].[WebServiceCallLogs].[RequestTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WebServiceCallLogs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="402c2cbd-6677-45b0-87d5-f5b363372d75" ChangeDateTime="03/18/2015 02:16:23">
+    <Property Name="ElementName" Value="[dbo].[WebServiceCallLogs].[RequestXML]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WebServiceCallLogs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="XML_Data" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b9504b0b-db6c-4a67-96bb-5cb8d823ac6b" ChangeDateTime="05/06/2018 06:16:12">
+    <Property Name="ElementName" Value="[dbo].[LookupSexes]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[LookupGenders]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="85189b5a-b6ce-4d14-ab37-273d084f8edb" ChangeDateTime="05/06/2018 06:16:23">
+    <Property Name="ElementName" Value="[dbo].[LookupGenders].[SexID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LookupGenders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[GenderID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="add0ec9d-e4fc-4644-a0bd-9be8da9242d3" ChangeDateTime="05/06/2018 06:16:38">
+    <Property Name="ElementName" Value="[dbo].[LookupGenders].[SexText]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LookupGenders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[GenderText]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a8dc4d74-913f-431b-9c2b-56d39080dbea" ChangeDateTime="05/06/2018 06:16:46">
+    <Property Name="ElementName" Value="[dbo].[PK_LookupSexes]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[LookupGenders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PK_LookupGenders]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6dd3bbd4-80bc-4bc6-8957-d20a057e6c78" ChangeDateTime="05/06/2018 07:08:19">
+    <Property Name="ElementName" Value="[dbo].[TestResults].[SexID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TestResults]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[GenderID]" />
+  </Operation>
+</Operations>
